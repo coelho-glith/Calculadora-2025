@@ -8,7 +8,6 @@
             string[] historico = new string[100];
             while (true)
             {
-                contador2++;
                 Console.Clear();
                 Console.WriteLine("------------------------------------");
                 Console.WriteLine("Calculadora Tabajara 2025");
@@ -103,6 +102,7 @@
                     }
 
                     resultado = primeiroNumero / segundoNumero;
+                    historico[contador2] = $"{primeiroNumero} / {segundoNumero} = {resultado}";
 
                     //while (segundoNumero == 0)
                     //{
@@ -116,6 +116,8 @@
                 Console.WriteLine("------------------------------------");
                 Console.WriteLine("Resultado: " + resultado.ToString("F2"));
                 Console.WriteLine("------------------------------------");
+                
+                contador2++;
 
                 Console.Write("Deseja continuar? (S/N): ");
                 string opcaoContinuar = Console.ReadLine().ToUpper();
