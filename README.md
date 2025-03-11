@@ -2,9 +2,9 @@
 
 ### Introdução 
 ---
-! [https://i.imgur.com/qWcv675.gif]
+![](https://i.imgur.com/qWcv675.gif)
 
-Calculadora simplificada mas eficiente
+Calculadora simplificada mas eficiente.
 
 ## Funcionalidades
 ---
