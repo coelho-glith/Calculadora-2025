@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            int contador2 = -1;
+            int contador2 = 0;
             string[] historico = new string[100];
             while (true)
             {
